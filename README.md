@@ -6,4 +6,4 @@
 2. Install material dark theme: https://chrome.google.com/webstore/detail/material-incognito-dark-t/ahifcnpnjgbadkjdhagpfjfkmlapfoel
 3. Load in colorchrome extension:
    chrome://extensions/ > "Load unpacked" > open whole folder
-4. Edit `tab.url.includes("tweetdeck.localhost.twitter")` to whatever you like for development window
+4. In `background.js`, Edit `tab.url.includes("tweetdeck.localhost.twitter")` to whatever you like for development window (this window will turn pink)
